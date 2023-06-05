@@ -15,6 +15,11 @@
 			overflow-x: hidden;
 			overflow-y: hidden;
 		}
+		canvas{
+			width: 30vw;
+			height: 30vw;
+			margin: 0 auto;
+		}
 		section {margin: 50px;}
 		ul, li {list-style: none;}
 		h1 {font-family: 'NanumSquareNeoHeavy';}
@@ -29,7 +34,6 @@
 			top: 0;
 			left: 0;
 			display: none;
-
 			background: rgba(0, 0, 0, 0.2);
 		}
 		.modal_window {
@@ -111,8 +115,8 @@
 		.companylist {
 			display: inline-block;
 			flex : 1 0 auto;
-			margin: 20px;
-			border : 20px solid #fce6b8;
+			margin: 1vw;
+			border : 1vw solid #fce6b8;
 			background: #ffffff;
 			text-align: center;
 		}
@@ -144,15 +148,9 @@
 			align-items: center;
 			justify-content: center;
 		}
-
-		canvas{
-			width: 30vw;
-			height: 30vw;
-			margin: 0 auto;
-		}
-
 	</style>
 </head>
+
 <body>
 	<nav class="menu">
 		<div class="menuitem">Intro</div>
@@ -163,26 +161,32 @@
 	</nav>
 
 	<header class="intro">
+
 		<section>
 			<img src="images/sprout.png" style="filter: opacity(0.5) drop-shadow(0 0 0 #17391c); width: 20vw;" class="openModal">
 		</section>
+
 		<section>
 		<div style="color: #17391c;">
 			<h3 style="font-size: 50px; margin-bottom: -15px;">Jeong Min Gyeong</h3>
 			<h3>언젠가 나만의 사업을 시작하고 싶은 개발자 꿈나무</h3>
 		</div>
+
 		<div style="color: #17391c; opacity: 0.5;">
 				현 공주대학교 재학중<br>
 				📞 +(82)10-8820-3558<br>
 				✉️ jmingyung1024@smail.kongju.ac.kr
 		</div>
+
 		<br><br>
+
 		<div style="color: #8b9a71;">
 			안녕하세요, 현재 공주대학교에서 재학중인 정민경입니다.<br>
 			과제의 일환으로 이번 페이지를 만들게 되었습니다. <br>
 			아직 부족한 점이 많지만 재밌게 봐주세요!<br>
 			좌측의 새싹 아이콘을 누르면 타임라인이 표시됩니다.
 		</div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">TIMELINE</span>
@@ -208,38 +212,42 @@
 			</div>
 		</div>
 		</section>
+
 	</header>
 
 	<article class="interest">
+
 		<section style="flex: 1 0 auto; 
 			display: inline-flex;
 			flex-direction: row;">
 			<canvas id="canvas" width="720" height="480" style="flex: 0.6 0 auto;"></canvas>
 		</section>
-		<section style="flex: 3 0 auto; 
-		flex-direction: column;">
-			<div style="flex: 1 0 auto; 
-			 width: 35vw; color: #15371a;">
+
+		<section style="flex: 3 0 auto; flex-direction: column;">
+			<div style="flex: 1 0 auto; width: 35vw; color: #15371a;">
 				<h2 style="color:#17391c;">이제는 초고령 사회</h2>
 				지난해 통계청은 우리나라가 2025년이면 65세 이상 고령인구가 1000만명을 돌파하는 초고령사회에 진입할 전망이라고 발표하였습니다. 고령 인구가 빠르게 늘면서 노인들이 시장의 주요 소비층으로 떠오르게 되었고, 이에 따라 시니어 산업 시장에 대한 열풍도 점점 뜨거워지고 있습니다.
 			</div>
 			<br>
 			<div style="flex: 1 0 auto; width: 35vw; color: #15371a;">
 				<h2 style="color:#17391c;">에이징 테크</h2>
-				다른 말로 실버 테크라고도 불리는 이 기술은 노인이 건강하고 안전하게, 그리고 편리하고 독립적으로 생활할 수 있도록 돕는 기술을 가리킵니다. 크게 돌봄, 생활 안전, 삶의 질과 관련된 기술로 구분할 수 있고, 사물인터넷, 모바일, 인공지능, 로봇 등 4차산업의 핵심기술들이 활용됩니다. 
+				다른 말로 실버 테크라고도 불리는 이 기술은 노인이 건강하고 안전하게, 그리고 편리하고 독립적으로 생활할 수 있도록 돕는 기술을 가리킵니다. 크게 돌봄, 생활 안전, 삶의 질과 관련된 기술로 구분할 수 있고, 사물인터넷, 모바일, 인공지능, 로봇 등 4차산업의 핵심 기술들이 활용됩니다. 
 				<br><br><hr><br>
-				고령화 문제는 단순히 우리 사회만의 문제가 아니라 전 세계적으로 겪고 있는 현상이며, 이를 해결하기 위한 실버 테크 기술이 계속해서 발전해나갈 것으로 예상됩니다. 또한 실버 테크 관련 산업에 지속적인 소비층이 존재하고 아직 발견되지 않은 수많은 잠재력을 품고 있는 분야라고 판단하였기 때문에 관련 직종에 흥미를 가지게 되었습니다. 
+				고령화 문제는 단순히 우리 사회만의 문제가 아니라 전 세계적으로 겪고 있는 현상이며, 이를 해결하기 위한 실버 테크 기술이 계속해서 발전해 나갈 것으로 예상됩니다. 또한 실버 테크 관련 산업에 지속적인 소비층이 존재하고 아직 발견되지 않은 수많은 잠재력을 품고 있는 분야라고 판단하였기 때문에 관련 직종에 흥미를 가지게 되었습니다. 
 			</div>
 		</section>
+
 	</article>
 
 	<article class="company" style="text-align:center;">
+
 		<div style="position: absolute; bottom: 20vh;">에이징 테크 관련 기업 목록입니다.<br>클릭 시 더욱 자세한 정보를 열람할 수 있습니다.</div>
 		<div class="companylist openModal"><img src="images/한국시니어.png" width="200px"><h2>한국시니어연구소</h2></div>
 		<div class="companylist openModal"><img src="images/디엔엑스.png" width="200px"><h2>디엔엑스</h2></div>
 		<div class="companylist openModal"><img src="images/실비아헬스.png" width="200px"><h2>실비아헬스</h2></div>
 		<div class="companylist openModal"><img src="images/HMC.png" width="200px" ><h2>에이치엠씨네트웍스</h2></div>
 		<div class="companylist openModal"><img src="images/효돌.png" width="200px" ><h2>효돌</h2></div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">한국시니어연구소</span>
@@ -265,6 +273,7 @@
 				<a href="https://corp.kslab.co.kr/"><img src="images/한국시니어.png" width="40px"><br>바로가기</a>
 			</div>
 		</div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">디엔엑스</span>
@@ -290,6 +299,7 @@
 				<a href="https://www.dnx.kr/"><img src="images/디엔엑스.png" width="40px"><br>바로가기</a>
 			</div>
 		</div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">실비아헬스</span>
@@ -316,6 +326,7 @@
 				<a href="https://silvia.io/"><img src="images/실비아헬스.png" width="40px"><br>바로가기</a>
 			</div>
 		</div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">에이치엠씨네트웍스</span>
@@ -339,6 +350,7 @@
 				<a href="https://hmcnetworks.co.kr/main"><img src="images/HMC.png" width="40px"><br>바로가기</a>
 			</div>
 		</div>
+
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">효돌</span>
@@ -365,17 +377,20 @@
 				<a href="https://hyodol.com/"><img src="images/효돌.png" width="40px"><br>바로가기</a>
 			</div>
 		</div>
+
 	</article>
 
 	<article class="plan">
+
 		<section style="flex: 1 0 auto; width: 30vw;">
 			<div>
 				<h2 style="color:#17391c;">About Myself</h2>
-				제가 생각하는 저의 가장 큰 문제점은 바로 게으름입니다. 시도하고 싶어하는 일은 많지만 정말 실행에 옮기기까진 많은 시간이 걸립니다. 그러나 동시에 제가 자신있게 말할 수 있는 것은 제가 과거로부터 배우고, 극복할 수 있는 사람이라는 것입니다. 제 단점을 고치고자 계획을 세우는 습관을 만들었고, 미래에 대해 고민하였습니다. 나아가 이러한 단점이 순발력과 융통성을 키워냈다는 점을 깨달았고, 예상치 못한 상황을 마주해도 이에 좌절하지 않고 대처해 나갈 수 있었습니다. 
+				제가 생각하는 저의 가장 큰 문제점은 바로 게으름입니다. 시도하고 싶어 하는 일은 많지만 정말 실행에 옮기기까진 많은 시간이 걸립니다. 그러나 동시에 제가 자신 있게 말할 수 있는 것은 제가 과거로부터 배우고, 극복할 수 있는 사람이라는 것입니다. 제 단점을 고치고자 계획을 세우는 습관을 만들었고, 미래에 대해 고민하였습니다. 나아가 이러한 단점이 순발력과 융통성을 키워냈다는 점을 깨달았고, 예상치 못한 상황을 마주해도 이에 좌절하지 않고 대처해 나갈 수 있었습니다. 
 				<br><br><br>
-				📝우측은 제가 세운 계획 중 예시입니다<br>
+				📝우측은 제가 세운 계획입니다!<br>
 			</div>
 		</section>
+
 		<section style="flex: 1 0 auto; flex-direction: column; width: 35vw;">
 			<div style="flex: 1 0 auto;">
 				<h3 style="color:#17391c;">졸업 이전</h3><br>
@@ -393,15 +408,16 @@
 				- 여태껏 배운 지식과 경험을 기반으로 실버 테크 관련 회사 창업하기!
 			</div>
 		</section>
+
 	</article>
 
 	<footer class="outro">
 		<section style="width: 60vw; flex-direction: column;">
 			<div style="flex: 1 0 auto;">
 				<h1 style="color:#17391c; font-size: 50px;">마치며</h1>
-				여태까지 다양한 프로그램을 만들어 왔지만, 이번 웹 페이지는 사용자의 가시성을 고려하며 작성해야 한다는 점이 흥미로웠습니다. 간단한 언어지만 사용자와의 상호작용을 통해 사용자가 몰입할 수 있다는 것도 새로웠고 여러모로 즐겁게 만들었습니다. <br>
-				특히 가시성을 위해 거의 모든 단위를 vw, vh로 통일했고 다른 크기의 윈도우나 기기에서도 보기 편하길 바라며 작성했습니다. 또한 어떻게 하면 사용자가 인지하기 쉬운 페이지를 작성할 수 있을 지 고민하던 와중 모달 창이라는 개념을 알게 되어 유용하게 사용했습니다. <br>
-				그 외에 그래프 애니메이션을 만들기 위해 처음엔 css 내에 애니메이션을 작성하려 했지만 다른 데이터마다 애니메이션을 지정해야 한다는 어려움이 있었고, 결국 canvas 위에 javascript를 통해 그리는 방법으로 구현하게 되었습니다. 이는 https://lts0606.tistory.com를 참고했습니다.
+				이번 웹 페이지를 만들면서 가장 신경썼던 사항은 다른 크기의 모니터에서 웹 페이지를 열람해도 가시성을 해치지 않도록 페이지를 작성하는 것이였습니다. 거의 모든 크기 단위를 vw, vh 혹은 %로 통일하였고, 완벽하진 않지만 얼추 만족할 수 있을 정도로 페이지를 작성한 것 같습니다.<br><br>
+				또한 움직이는 그래프를 만들기 위해 css 내에 애니메이션을 작성하려 했지만 데이터마다 일일이 애니메이션을 작성해야 한다는 어려움이 있었고, 결국 javascript를 이용해 canvas 위에 반복해서 도형을 그리는 방법으로 구현하게 되었습니다. 이는 https://lts0606.tistory.com를 참고했습니다.<br><br>
+				이제까지 다양한 프로그램을 만들어 왔지만, 개발자가 아닌 사용자 중심으로 상호작용을 구상하며 프로그래밍 해 본 적은 처음이었습니다. 어떻게 해야 사용자가 더 이해하기 쉬울지, 혹은 편리하게 이용할 수 있을 지 등 제가 알지 못했던 새로운 관점이 있었음을 깨닫는 유익한 경험이었습니다.  <br>
 			</div>
 			<br><br>
 			<div style="flex: 1 0 auto;">
@@ -411,6 +427,7 @@
 			</div>
 		</section>
 	</footer>
+
 
 	<script type="text/javascript">
 
@@ -522,7 +539,7 @@
     }
 
 
-    // 모달 창
+    // 모달 창과 오버레이 열기
     modal_overlay = document.querySelectorAll(".modal_overlay");
     modal_window = document.querySelectorAll(".modal_window");
     openModal = document.querySelectorAll(".openModal");

@@ -12,11 +12,15 @@
 			background: #fefbe9;
 			flex: 1 0 auto;
 			font-family: 'NanumSquareNeo';
+			overflow-x: hidden;
+			overflow-y: hidden;
 		}
 		section {margin: 50px;}
 		ul, li {list-style: none;}
+		h1 {font-family: 'NanumSquareNeoHeavy';}
 		h2 { font-family: 'NanumSquareNeoHeavy';}
 		h3 {font-family: 'NanumSquareNeoExtraBold';}
+		div {word-break: keep-all;}
 
 		.modal_overlay {
 			width: 100vw;
@@ -184,17 +188,23 @@
 				<span style = "font : bold 20px sans-serif;">TIMELINE</span>
 				<div class="timeline">
 					<h3>2000</h3>
-					10월 24일 출생
+					10월 24일 서울의 한 병원에서 태어났습니다.
 				</div>
 				<div class="timeline">
-					<h3>2000</h3>
-					10월 24일 출생
+					<h3>2015</h3>
+					가족 중 한 명이 크게 아팠고, 이로 인해 나중에 노인과 환자를 위한 사업을 열겠다는 목표를 세웠습니다.
 				</div>
 				<div class="timeline">
 					<h3>2021</h3>
-					🎉공주대학교 입학!🎉
+					🎉공주대학교 입학!🎉<br><br>
+					여러 사람들을 만나 많은 걸 배우고 있습니다. <br>
+					세상이 정말 넓다는 걸 체감하는 중입니다.
 				</div>
-				학교를 다니면서 etcetc
+				<div class="timeline">
+					<h3>현재</h3>
+					졸업 후 진로에 대해 고민하고 있습니다.<br>
+					아직은 부족한 점이 많네요. 
+				</div>
 			</div>
 		</div>
 		</section>
@@ -208,29 +218,28 @@
 		</section>
 		<section style="flex: 3 0 auto; 
 		flex-direction: column;">
-			<div style="flex: 1 0 auto; word-break: keep-all;
+			<div style="flex: 1 0 auto; 
 			 width: 35vw; color: #15371a;">
 				<h2 style="color:#17391c;">이제는 초고령 사회</h2>
 				지난해 통계청은 우리나라가 2025년이면 65세 이상 고령인구가 1000만명을 돌파하는 초고령사회에 진입할 전망이라고 발표하였습니다. 고령 인구가 빠르게 늘면서 노인들이 시장의 주요 소비층으로 떠오르게 되었고, 이에 따라 시니어 산업 시장에 대한 열풍도 점점 뜨거워지고 있습니다.
 			</div>
 			<br>
-			<div style="flex: 1 0 auto; word-break: keep-all;
-			 width: 35vw; color: #15371a;">
+			<div style="flex: 1 0 auto; width: 35vw; color: #15371a;">
 				<h2 style="color:#17391c;">에이징 테크</h2>
 				다른 말로 실버 테크라고도 불리는 이 기술은 노인이 건강하고 안전하게, 그리고 편리하고 독립적으로 생활할 수 있도록 돕는 기술을 가리킵니다. 크게 돌봄, 생활 안전, 삶의 질과 관련된 기술로 구분할 수 있고, 사물인터넷, 모바일, 인공지능, 로봇 등 4차산업의 핵심기술들이 활용됩니다. 
-				<br><br>
-				고령화 문제는 단순히 우리 사회만의 문제가 아니라 전 세계적으로 겪고 있는 현상이며, 이를 극복하려면 실버 테크 기술의 발전이 필요하다고 생각합니다. 잠재력이 무궁무진함. 또한 세계적인 경쟁력을 가질 수 있으며 개인 경험에 뒷받침하여 이 분야로 취업해보고 싶다는 생각을 하게 되었습니다.
+				<br><br><hr><br>
+				고령화 문제는 단순히 우리 사회만의 문제가 아니라 전 세계적으로 겪고 있는 현상이며, 이를 해결하기 위한 실버 테크 기술이 계속해서 발전해나갈 것으로 예상됩니다. 또한 실버 테크 관련 산업에 지속적인 소비층이 존재하고 아직 발견되지 않은 수많은 잠재력을 품고 있는 분야라고 판단하였기 때문에 관련 직종에 흥미를 가지게 되었습니다. 
 			</div>
 		</section>
 	</article>
 
-	<article class="company">
-		<div style="position: absolute; bottom: 20vh;">클릭 시 더욱 자세한 정보를 열람할 수 있습니다.</div>
-		<div class="companylist openModal" title="클릭 시 자세한 정보가 표시됩니다."><img src="images/한국시니어.png" width="200px"><h2>한국시니어연구소</h2></div>
-		<div class="companylist openModal" title="클릭 시 자세한 정보가 표시됩니다."><img src="images/디엔엑스.png" width="200px"><h2>디엔엑스</h2></div>
-		<div class="companylist openModal" title="클릭 시 자세한 정보가 표시됩니다."><img src="images/실비아헬스.png" width="200px"><h2>실비아헬스</h2></div>
-		<div class="companylist openModal" title="클릭 시 자세한 정보가 표시됩니다."><img src="images/HMC.png" width="200px" ><h2>에이치엠씨네트웍스</h2></div>
-		<div class="companylist openModal" title="클릭 시 자세한 정보가 표시됩니다."><img src="images/효돌.png" width="200px" ><h2>효돌</h2></div>
+	<article class="company" style="text-align:center;">
+		<div style="position: absolute; bottom: 20vh;">에이징 테크 관련 기업 목록입니다.<br>클릭 시 더욱 자세한 정보를 열람할 수 있습니다.</div>
+		<div class="companylist openModal"><img src="images/한국시니어.png" width="200px"><h2>한국시니어연구소</h2></div>
+		<div class="companylist openModal"><img src="images/디엔엑스.png" width="200px"><h2>디엔엑스</h2></div>
+		<div class="companylist openModal"><img src="images/실비아헬스.png" width="200px"><h2>실비아헬스</h2></div>
+		<div class="companylist openModal"><img src="images/HMC.png" width="200px" ><h2>에이치엠씨네트웍스</h2></div>
+		<div class="companylist openModal"><img src="images/효돌.png" width="200px" ><h2>효돌</h2></div>
 		<div class="modal_overlay">
 			<div class = "modal_window" style="text-align: center;">
 				<span style = "font : bold 20px sans-serif;">한국시니어연구소</span>
@@ -319,7 +328,7 @@
 					<h3>기업 소개</h3>
 					에이치엠씨네트웍스는 '보다 좋은 간병 문화를 만든다'는 미션 아래 빅데이터를 활용하여 환자, 보호자와 간병인 간의 연결을 돕는 서비스 '케어네이션'을 제공하고 있습니다.</div><br>
 				<div style="text-align:left">
-					<h3>벡엔드 개발자</h3><br>
+					<h3>벡엔드 개발자 직무</h3><br>
 					[담당 업무]<br>
 					- REST API 개발<br>
 					- 관리자 페이지 구축 및 운영<br><br>
@@ -359,16 +368,53 @@
 	</article>
 
 	<article class="plan">
-		<div>plan</div>
-		가로형 타임라인, 이미지로
+		<section style="flex: 1 0 auto; width: 30vw;">
+			<div>
+				<h2 style="color:#17391c;">About Myself</h2>
+				제가 생각하는 저의 가장 큰 문제점은 바로 게으름입니다. 시도하고 싶어하는 일은 많지만 정말 실행에 옮기기까진 많은 시간이 걸립니다. 그러나 동시에 제가 자신있게 말할 수 있는 것은 제가 과거로부터 배우고, 극복할 수 있는 사람이라는 것입니다. 제 단점을 고치고자 계획을 세우는 습관을 만들었고, 미래에 대해 고민하였습니다. 나아가 이러한 단점이 순발력과 융통성을 키워냈다는 점을 깨달았고, 예상치 못한 상황을 마주해도 이에 좌절하지 않고 대처해 나갈 수 있었습니다. 
+				<br><br><br>
+				📝우측은 제가 세운 계획 중 예시입니다<br>
+			</div>
+		</section>
+		<section style="flex: 1 0 auto; flex-direction: column; width: 35vw;">
+			<div style="flex: 1 0 auto;">
+				<h3 style="color:#17391c;">졸업 이전</h3><br>
+				- 토익 900점 이상, 정보처리기사 자격증 등 객관적인 지표로 평가할 수 있는 경쟁력 갖추기<br><br>
+				- 교내에서 CS / 알고리즘 / 데이터베이스 스터디 모임을 통해 커뮤니케이션 능력 키우기<br><br>
+				- 실버 테크와 관련된 개인 프로젝트 준비<br><br>
+				- 프로그래머스, 백준 등으로 코딩테스트 준비<br><br>
+				- 블로그를 운영하면서 프로그래밍 도중 어려웠던 문제와 이에 대한 해결 방법을 기록해 놓기<br><br>
+				- 인턴십 또는 학부연구생 경험하기
+			</div>
+			<br><br><hr><br><br>
+			<div style="flex: 1 0 auto;">
+				<h3 style="color:#17391c;">졸업 이후</h3><br>
+				- 실버 테크 스타트업 기업에 취업해서 실무 작업과 시장 동세를 배우기<br><br>
+				- 여태껏 배운 지식과 경험을 기반으로 실버 테크 관련 회사 창업하기!
+			</div>
+		</section>
 	</article>
 
 	<footer class="outro">
-		<div>outro</div>
-		힘들었던 점, 
+		<section style="width: 60vw; flex-direction: column;">
+			<div style="flex: 1 0 auto;">
+				<h1 style="color:#17391c; font-size: 50px;">마치며</h1>
+				여태까지 다양한 프로그램을 만들어 왔지만, 이번 웹 페이지는 사용자의 가시성을 고려하며 작성해야 한다는 점이 흥미로웠습니다. 간단한 언어지만 사용자와의 상호작용을 통해 사용자가 몰입할 수 있다는 것도 새로웠고 여러모로 즐겁게 만들었습니다. <br>
+				특히 가시성을 위해 거의 모든 단위를 vw, vh로 통일했고 다른 크기의 윈도우나 기기에서도 보기 편하길 바라며 작성했습니다. 또한 어떻게 하면 사용자가 인지하기 쉬운 페이지를 작성할 수 있을 지 고민하던 와중 모달 창이라는 개념을 알게 되어 유용하게 사용했습니다. <br>
+				그 외에 그래프 애니메이션을 만들기 위해 처음엔 css 내에 애니메이션을 작성하려 했지만 다른 데이터마다 애니메이션을 지정해야 한다는 어려움이 있었고, 결국 canvas 위에 javascript를 통해 그리는 방법으로 구현하게 되었습니다. 이는 https://lts0606.tistory.com를 참고했습니다.
+			</div>
+			<br><br>
+			<div style="flex: 1 0 auto;">
+				<a href="https://github.com/Jeong1024/WebProgramming">
+				<img src="images/github.png" style="filter: opacity(0.5) drop-shadow(0 0 0 #17391c); width: 100px;">
+			</a>
+			</div>
+		</section>
 	</footer>
 
 	<script type="text/javascript">
+
+		// 메뉴 아이템 클릭 시 해당 항목으로 이동
 		menuitem = document.querySelectorAll(".menuitem");
 		menuitem[0].onclick = function() { 
 			topY = document.querySelector(".intro").offsetTop;
@@ -391,6 +437,8 @@
 			window.scrollTo({top:topY, behavior:'smooth'});
 		}
 
+
+		// 캔버스에 그래프가 동적으로 그려지는 효과
 		canvas = document.getElementById("canvas");
 		ctx = canvas.getContext('2d');
 		ctx.fillStyle="#15371a";
@@ -416,9 +464,9 @@
     	ctx.clearRect(0, 0, width, height);
 
 		ctx.fillStyle="#8b9a71";
-		ctx.font = "bold 20px sans-serif";
+		ctx.font = "bold 20px NanumSquareNeoHeavy";
 		ctx.fillText("연도별 65세 이상 인구 비중",width/3,20);
-    	ctx.font = "bold 15px sans-serif"; 
+    	ctx.font = "bold 15px NanumSquareNeoHeavy"; 
         year.forEach((data, idx) =>{
             var devide = idx / year.length;
             var len = (wid/2) - ctx.measureText(data+'').width / 2;
@@ -466,13 +514,15 @@
     function makeText(){
         tvalue.forEach((data, idx) =>{
 			ctx.fillStyle="#17391c";
-    		ctx.font = "bold 15px sans-serif"; 
+    		ctx.font = "bold 15px NanumSquareNeoHeavy"; 
             var devide = idx / value.length;
             var len = (wid/2) - ctx.measureText(data+'').width / 2;
-            ctx.fillText(data, position.min_x + position.max_x*devide + len, position.max_y + position.min_y);
+            ctx.fillText(data, position.min_x + position.max_x*devide + len, position.max_y + position.min_y-5);
         });        
     }
 
+
+    // 모달 창
     modal_overlay = document.querySelectorAll(".modal_overlay");
     modal_window = document.querySelectorAll(".modal_window");
     openModal = document.querySelectorAll(".openModal");
@@ -483,12 +533,10 @@
     		openModal[num].onclick = function() {
     			modal_overlay[num].style.display="flex";
     			modal_window[num].style.display="inline-flex";
-    			document.body.style.overflow = "hidden";
     		};
     		modal_overlay[num].onclick = function() {
     			modal_overlay[num].style.display="none";
     			modal_window[num].style.display = "none";
-    			document.body.style.overflow="auto";
     		};
     	}
     }

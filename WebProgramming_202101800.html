@@ -195,22 +195,19 @@
 				<span style = "font : bold 20px sans-serif;">TIMELINE</span>
 				<div class="timeline">
 					<h3>2000</h3>
-					10월 24일 서울의 한 병원에서 태어났습니다.
+					10월 24일 서울의 한 병원에서 태어났습니다. 여러 책을 읽는 것이 미래에 도움이 될 것이라는 부모님의 생각 하에 고등학교에 입학하기 전 까지 일주일에 두 권씩 책을 읽었고, 덕분에 다양한 사례들을 접하면서 사고력과 문제해결능력을 기를 수 있었습니다.
 				</div>
 				<div class="timeline">
 					<h3>2015</h3>
-					가족 중 한 명이 크게 아팠고, 이로 인해 나중에 노인과 환자를 위한 사업을 열겠다는 목표를 세웠습니다.
+					가족 중 한 명이 크게 아팠고, 간병 때문에 힘들어 하는 가족들을 보면서 장래에 노인과 환자를 위한 사업을 열어 같은 일을 겪는 사람들을 도와주겠다는 목표를 세웠습니다.
 				</div>
 				<div class="timeline">
 					<h3>2021</h3>
-					🎉공주대학교 입학!🎉<br><br>
-					여러 사람들을 만나 많은 걸 배우고 있습니다. <br>
-					세상이 정말 넓다는 걸 체감하는 중입니다.
+					AIoT 국제전시회를 관람하면서 IoT 기술을 이용한 스마트 헬스케어 시장이 대두되고 있음을 알게 되었고, 이를 이용해 요양원 내 안전시설을 확장한다는 아이디어를 세웠습니다.
 				</div>
 				<div class="timeline">
 					<h3>현재</h3>
-					졸업 후 진로에 대해 고민하고 있습니다.<br>
-					아직은 부족한 점이 많네요. 
+					아직은 부족한 점이 많지만 졸업 후 에이징 테크 관련 기업에 취직하기 위해 백엔드 개발자 직무 역량을 기르고 있습니다.
 				</div>
 			</div>
 		</div>
@@ -390,29 +387,31 @@
 				<h2 style="color:#17391c;">About Myself</h2>
 				제가 생각하는 저의 가장 큰 문제점은 바로 게으름입니다. 시도하고 싶어 하는 일은 많지만 정말 실행에 옮기기까진 많은 시간이 걸립니다. 그러나 동시에 제가 자신 있게 말할 수 있는 것은 제가 과거로부터 배우고, 극복할 수 있는 사람이라는 것입니다. 제 단점을 고치고자 계획을 세우는 습관을 만들었고, 미래에 대해 고민하였습니다. 나아가 이러한 단점이 순발력과 융통성을 키워냈다는 점을 깨달았고, 예상치 못한 상황을 마주해도 이에 좌절하지 않고 대처해 나갈 수 있었습니다. 
 				<br><br><br>
-				📝우측은 제가 세운 계획입니다!<br>
+				📝짧게는 에이징 테크 관련 기업에 취직하기 위해, 길게는 제가 목표로 했던 사업을 창업하기 위해 세운 계획입니다. 우측의 토글 버튼을 클릭하면 자세한 내용을 볼 수 있습니다.<br>
 			</div>
 		</section>
 
 		<section style="flex: 1 0 auto; flex-direction: column; width: 35vw;">
 			<div style="flex: 1 0 auto;">
-				<h3 style="color:#17391c;" class="toggleButton" onclick="toggle(0)">▼ 졸업 이전</h3><br>
-				<span class="toggleContent">
+				<details>
+					<summary><h3 style="color:#17391c; display: inline;">졸업 이전</h3></summary>
+					<br>
 				- 토익 900점 이상, 정보처리기사 자격증 등 객관적인 지표로 평가할 수 있는 경쟁력 갖추기<br><br>
 				- 교내에서 CS / 알고리즘 / 데이터베이스 스터디 모임을 통해 커뮤니케이션 능력 키우기<br><br>
 				- 실버 테크와 관련된 개인 프로젝트 준비<br><br>
 				- 프로그래머스, 백준 등으로 코딩테스트 준비<br><br>
 				- 블로그를 운영하면서 프로그래밍 도중 어려웠던 문제와 이에 대한 해결 방법을 기록해 놓기<br><br>
 				- 인턴십 또는 학부연구생 경험하기
-				</span>
+			</details>
 			</div>
 			<br><br><hr><br><br>
 			<div style="flex: 1 0 auto;">
-				<h3 style="color:#17391c;" class="toggleButton" onclick="toggle(1)">▼ 졸업 이후</h3><br>
-				<span class="toggleContent">
+				<details>
+					<summary><h3 style="color:#17391c; display: inline;">졸업 이후</h3></summary>
+					<br>
 				- 실버 테크 스타트업 기업에 취업해서 실무 작업과 시장 동세를 배우기<br><br>
 				- 여태껏 배운 지식과 경험을 기반으로 실버 테크 관련 회사 창업하기!
-			</span>
+		</details>
 			</div>
 		</section>
 
@@ -568,17 +567,6 @@
     for (i=0; i<openModal.length; i++) {
     	funcs[i] = Modal(i);
     	funcs[i]();
-    }
-
-
-    //토글 창 열기
-    var toggleContent = document.querySelectorAll(".toggleContent");
-
-    function toggle(index) {
-    	if (toggleContent[index].style.display == "none")
-    		toggleContent[index].style.display = "flex";
-    	else
-    		toggleContent[index].style.display = "none";
     }
 
 	</script>
